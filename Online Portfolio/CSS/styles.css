@@ -1,0 +1,118 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 10% 0 10%;
+}
+h3{
+  font-weight: bold;
+  color: #7FBCD2;
+}
+p{
+  color: #8f8f8f;
+}
+#title{
+  background-color: #7FBCD2;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 11%;
+}
+
+/* Nav bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Title image */
+.title-image{
+  opacity: 0.6;
+  right: 10%;
+}
+
+/* feature section */
+.i-feature{
+  color: #7FBCD2;
+  margin-bottom: 1.25rem;
+}
+.i-feature:hover{
+  color: #5CB8E4;
+}
+#features{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+
+}
+.title-image-container{
+  position: relative;
+}
+
+.row-features{
+  padding-top: 2%;
+}
+
+/* testimonial section */
+#experience{
+  background-color: #7FBCD2;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%
+}
+.carousel-inner{
+  padding-top: 3%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+/* footer */
+#footer{
+  text-align:center;
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+.footer-icons{
+  margin: 2rem;
+}
+.i-contact{
+  color: #7FBCD2;
+}
+/* media query */
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+  }
+}
